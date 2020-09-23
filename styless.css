@@ -1,0 +1,60 @@
+h2 {
+    max-height:800px;
+    font-size: 34pt;
+    margin-top: 0%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    background-color: burlywood;
+    }
+h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    font-size: 25pt;
+    text-align: center;
+    max-height: 800px;
+    margin-top: 0%;
+}
+
+.box{
+    padding: 55px;
+    background-color: grey;
+    font-family: 'Times New Roman';
+    margin: 0 auto 100px;
+    margin-top: 5%;
+    border:2px black;
+    max-width: 500px;
+    max-height: 800px;
+    align-content: left;
+    }
+
+.box .group {
+        text-align: left;
+        flex-wrap: wrap;
+        align-items: stretch;
+        flex: 0 5 75%;
+        display: flex;
+        flex-flow: column;
+        margin: 0%;
+      }
+.box .group label {
+    color:black;
+    font-size: 16pt;
+    justify-content: left;
+    font-weight: bold;
+    flex: 3 1;
+    padding: 5px 6px;
+    margin: 0%;
+}
+
+.box .group input{
+    width: 1005;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: left;
+}
+

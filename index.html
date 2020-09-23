@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" type= "text/css" href="styless.css"/>
+        <title> Ashesi University Form</title>
+    
+    </head>
+        <script defer src="scriptss.js">
+            alert("Hello, welcome to Forms, please provide the required information")
+        </script>
+            <h1 id="Application"></h1>
+    <body style ="background-color:#ffffff; text-align: center; font-size: large;background-image: image();">
+        <div class = "header">
+            <h2>Ashesi University CV</h2>
+        </div>
+        <form action="CV.html" id="Add" method="GET" target="_blank" class= "box">
+            <h3>
+                "PERSONAL DETAILS"
+            </h3>
+                <div class="group">
+                    <label for ="Firstname">First Name:</label>
+                    <input type="text" id="First" name="Firstname" placeholder="First Name" required/>
+                    <span id="fnameerror"></span>
+                </div>
+                <div class="group">
+                    <label for= "Middlename"><b>Middle Name:</b></label>
+                    <input type="text" id="middle"  name= "Middlename" placeholder ="Middle Name" />
+                    <span id="mnameerror"></span>
+                </div>
+                <div class="group">     
+                    <label for= "Lastname"><b>Last Name:</b></label>
+                    <input type="text" id="last" class="l_name" name= "Lastname" placeholder ="Last Name" required/>
+                    <span id="lnameerror"></span>
+                </div>
+                <div class="group">
+                    <label for="Gender"><b>Gender:</b></label>
+                    <select name="Gender" id="gender">
+                        <option value="male" name ="Male"><em>Male</em></option>
+                        <option value="female" name ="Female"><em>Female</em></option>
+                    </select>
+                    <span id="genderror"></span>
+                </div>
+                <div class="group">
+                    <label for="phoneNumber"><b>Phone Number:</b></label>
+                    <input type="tel" id="contact" name ="Phone Number" placeholder="Phone Number" required/>
+                    <span id="numerror"></span>
+                </div>
+                <div class="group">
+                    <label for="mail"><b>Email:</b></label>
+                    <input type="email" id="email" name="Email" placeholder="Email Address" required/>
+                    <span id="mailerror"></span>
+                </div>
+                <div class="group">
+                    <label for="address"><b>Address:</b></label>
+                    <input type="text" id="addd" name="address" placeholder="Address(Location)" required/><br>
+                    <span id="addresserror"></span>
+                </div>        
+                <button id="cvForm" type="submit" value="subform">SUBMIT FORM</button>
+
+        </form>
+    </body>
+    <script src="scriptss.js"></script>
+</html>
